@@ -2,7 +2,7 @@
 ## Overview
 
 ### Tools
-This project uses Pythons **SQLAlchemy** library to create SQL queries that can work for any flavor of SQL databases. In our case, we use **SQLite** to quickly and conveniently setup a database engine without requiring a server. SQLAlchemy’s methods include create_engine, automap_base(), and Session(), which we utilize within **Jupyter Notebook** to explain the structures, interactions, and types of data within a dataset. Finally, to display our analysis on a website in real time we will use **Flask**.
+This project uses Pythons **SQLAlchemy** library to create SQL queries that can work for any flavor of SQL databases. In our case, we use **SQLite** to quickly and conveniently setup a database engine without requiring a server. SQLAlchemy’s methods include create_engine, automap_base(), and Session(), which we utilize within a **Jupyter Notebook** session to explain the structures, interactions, and types of data within a dataset. Finally, to display our analysis on a website in real time we will use **Flask**.
 
 ### Project
 W. Avy, a potential investor in a Surf Shop in Hawaii, asks us to run weather analysis on a weather database of Hawaii. This database includes data collected from thirteen weather stations across Hawaii and spans several years. Using Python and its libraries this proves to be a simple task. After importing all relevant dependencies, we must create an engine through SQLAlchemy, and then create a base class for an automap schema. This base class is our foundation allows us to build existing databases onto a model and reflect the databases tables. After saving references to each table, we are ready to extract, filter, and display our analysis.
